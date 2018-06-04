@@ -10,11 +10,10 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
-      - run: export BUNDLE_PATH=~/.gems
-      - run: bundle install
+      - run: sudo bundle install
       - run:
           name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
+          command: sudo bundle exec fastlane $FASTLANE_LANE
       - store_artifacts:
           path: output
       - store_test_results:
@@ -30,11 +29,10 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
-      - run: export BUNDLE_PATH=~/.gems
-      - run: bundle install
+      - run: sudo bundle install
       - run:
           name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
+          command: sudo bundle exec fastlane $FASTLANE_LANE
       - store_artifacts:
           path: output/Game.ipa
 
@@ -48,11 +46,10 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
-      - run: export BUNDLE_PATH=~/.gems
-      - run: bundle install
+      - run: sudo bundle install
       - run:
           name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
+          command: sudo bundle exec fastlane $FASTLANE_LANE
       - store_artifacts:
           path: output/Game.ipa
 
