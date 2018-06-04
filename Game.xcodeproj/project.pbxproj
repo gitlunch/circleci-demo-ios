@@ -199,20 +199,20 @@
 				TargetAttributes = {
 					49EC45451BF4D532000A8470 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = GL92ZZ6423;
+						DevelopmentTeam = 56FAXF8K2J;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 					};
 					49EC455D1BF4D533000A8470 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = GL92ZZ6423;
+						DevelopmentTeam = 56FAXF8K2J;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 						TestTargetID = 49EC45451BF4D532000A8470;
 					};
 					49EC45681BF4D533000A8470 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = GL92ZZ6423;
+						DevelopmentTeam = 56FAXF8K2J;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 						TestTargetID = 49EC45451BF4D532000A8470;
@@ -358,7 +358,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = GL92ZZ6423;
+				DEVELOPMENT_TEAM = 56FAXF8K2J;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -415,7 +415,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = GL92ZZ6423;
+				DEVELOPMENT_TEAM = 56FAXF8K2J;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -544,7 +544,7 @@
 				49EC45711BF4D533000A8470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		49EC45721BF4D533000A8470 /* Build configuration list for PBXNativeTarget "Game" */ = {
 			isa = XCConfigurationList;
@@ -553,7 +553,7 @@
 				49EC45741BF4D533000A8470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		49EC45751BF4D533000A8470 /* Build configuration list for PBXNativeTarget "GameTests" */ = {
 			isa = XCConfigurationList;
@@ -562,7 +562,7 @@
 				49EC45771BF4D533000A8470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		49EC45781BF4D533000A8470 /* Build configuration list for PBXNativeTarget "GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,7 +571,7 @@
 				49EC457A1BF4D533000A8470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
