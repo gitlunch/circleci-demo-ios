@@ -2,7 +2,7 @@ version: 2
 jobs:
   build-and-test:
     macos:
-      xcode: "9.0"
+      xcode: "9.3.1"
     working_directory: /Users/distiller/project
     environment:
       FL_OUTPUT_DIR: output
@@ -10,6 +10,7 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
+      - run: export BUNDLE_PATH=~/.gems
       - run: bundle install
       - run:
           name: Fastlane
@@ -21,7 +22,7 @@ jobs:
 
   adhoc:
     macos:
-      xcode: "9.0"
+      xcode: "9.3.1"
     working_directory: /Users/distiller/project
     environment:
       FL_OUTPUT_DIR: output
@@ -29,6 +30,7 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
+      - run: export BUNDLE_PATH=~/.gems
       - run: bundle install
       - run:
           name: Fastlane
@@ -38,7 +40,7 @@ jobs:
 
   beta:
     macos:
-      xcode: "9.0"
+      xcode: "9.3.1"
     working_directory: /Users/distiller/project
     environment:
       FL_OUTPUT_DIR: output
@@ -46,6 +48,7 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
+      - run: export BUNDLE_PATH=~/.gems
       - run: bundle install
       - run:
           name: Fastlane
